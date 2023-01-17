@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Draw to your wildest imagination!</h1>
+    </div>
+
+    <!-- Sidebar -->
+    <nav class="navbar">
+        <div id="toolbar">
+            <label for="penSize" id="toolType">Pen Size</label>
+            <input type="range" name="penSize" id="penSize" min="1" max="10" value="1">
+            <label for="colourSelector">Colour</label>
+            <input type="color" name="colourSelector" id="colourSelector" value="#000000">
+            <label for="backgroundColourSelector">Background Colour</label>
+            <input type="color" name="backgroundColourSelector" id="backgroundSelector" value="#FFFFFF">
+        </div>
+        <div id="toolbar-buttons">
+            <button id="penButton">Pen</button>
+            <button id="eraseButton">Eraser</button>
+            <button id="clearButton">Clear Canvas</button>
+            <button id="downloadButton">Download Drawing</button>
+        </div>         
+    </nav>
+
+    <!-- Canvas -->
+    <div id="canvasArea">
+        <canvas id="drawingCanvas">Drawing Canvas</canvas>
+    </div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+
+</body>
+</html>

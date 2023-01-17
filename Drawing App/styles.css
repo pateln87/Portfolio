@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: #E3E7F1;
+}
+
+h1 {
+    color: #695069;
+    font-family: 'Handlee', cursive;
+    font-size: 2rem;
+}
+
+label {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+}
+
+button {
+    border-radius: 15px;
+    border-width: 2.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #695069;
+    font-size: 15px;
+    background: #ceccd9;
+    padding: 10px;
+    text-decoration: none;
+}
+
+input[type="color"] {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar {
+    background-color: #50577A;
+}
+
+#canvasArea {
+    border: 10px solid #50577A;
+}
+
+#drawingCanvas {
+    height: 75%;
+    width: 100%;
+}
+
+#toolbar {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 20px;
+}
+
+#toolbar-buttons {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 20px;   
+}
